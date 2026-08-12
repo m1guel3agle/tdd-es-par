@@ -12,3 +12,8 @@ def es_positivo(n):
 
 def es_negativo(n):
     return n < 0
+
+def es_multiplo_de(n, m):
+    if m == 0:
+        return False
+    return n % m == 0
